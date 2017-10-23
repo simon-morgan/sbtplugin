@@ -37,7 +37,7 @@ object SbtpluginPlugin extends AutoPlugin {
 
   override def trigger = allRequirements
   override lazy val projectSettings = Seq[Def.Setting[_]](
-      scalaVersion := "2.12.3",
+      scalaVersion := "2.12.4",
       organization := "au.com.icx",
       Deps.scalafmtOnCompile := true,
       Deps.libs,
